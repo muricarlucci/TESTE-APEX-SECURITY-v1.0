@@ -1,0 +1,3 @@
+# Conceito: input() e eval()
+expressao_usuario = input("Digite um cálculo (ex: 2 + 2): ")
+resultado = eval(expressao_usuario) # O Semgrep alerta como Execução Arbitrária de Código (RCE)
